@@ -8,13 +8,13 @@ int main(){
     printf("1 - Espresso\n");
     printf("2 - Cappuccino\n");
     printf("3 - Macchiato\n");
-    printf("Escolha uma opção: ");
+    printf("Escolha uma opÃ§Ã£o: ");
 
-    //Lê a opção escolhida
+    //LÃª a opÃ§Ã£o escolhida
     int opcao;
     scanf("%d", &opcao);
 
-    //Seleção da opção
+    //SeleÃ§Ã£o da opÃ§Ã£o
     switch(opcao){
         case 1:
             printf("Espresso escolhido.");
@@ -24,6 +24,9 @@ int main(){
             break;
         case 3:
             printf("Macchiato escolhido.");
+            break;
+        default:
+            printf("OpÃ§Ã£o invÃ¡lida!");
             break;
     }
 
